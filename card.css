@@ -1,0 +1,74 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.card {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #cdcdcd;
+  border-radius: 12px;
+}
+
+.card-photo img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-info {
+  color: #454545;
+  margin-top: 8px;
+  padding-inline: 4px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card-info p {
+  margin: 0;
+}
+
+.card-user {
+  font-size: 0.9rem;
+}
+
+.card-rating {
+  font-size: 0.8rem;
+}
+
+.card-rating .rating-star {
+  font-size: 1.2rem;
+  line-height: 0.8rem;
+}
+
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-photo {
+  position: relative;
+}
+
+.card-photo .fave-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 100ms linear;
+}
+
+.card-photo .fave-button:hover {
+  transform: scale(1.2);
+}
